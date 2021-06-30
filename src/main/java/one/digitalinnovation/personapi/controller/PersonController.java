@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package one.digitalinnovation.personapi.controller;
 
 
@@ -54,3 +55,23 @@ import java.util.List;
 
     }
 
+=======
+package one.digitalinnovation.personapi.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+@RequestMapping("/api/v1/people")
+public class PersonController{
+
+    @GetMapping
+    public String getBook(){
+
+        return "API Test!";
+
+    }
+}
+>>>>>>> 0004f80a1e76904b84f614fb31cd9d8b84829238
