@@ -12,11 +12,7 @@
 	<artifactId>personapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>personapi</name>
-<<<<<<< HEAD
 	<description>Person API Protect</description>
-=======
-	<description>Person API project</description>
->>>>>>> 0004f80a1e76904b84f614fb31cd9d8b84829238
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -51,7 +47,6 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-<<<<<<< HEAD
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct</artifactId>
 			<version>1.4.1.Final</version>
@@ -60,30 +55,19 @@
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>
 		</dependency>
+
 		<dependency>
-=======
->>>>>>> 0004f80a1e76904b84f614fb31cd9d8b84829238
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
-        <dependency>
-            <groupId>xml-apis</groupId>
-            <artifactId>xml-apis</artifactId>
-            <version>1.3.04</version>
-        </dependency>
     </dependencies>
-=======
-	</dependencies>
->>>>>>> 0004f80a1e76904b84f614fb31cd9d8b84829238
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-<<<<<<< HEAD
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -103,15 +87,6 @@
 							<version>1.4.1.Final</version>
 						</path>
 					</annotationProcessorPaths>
-=======
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
->>>>>>> 0004f80a1e76904b84f614fb31cd9d8b84829238
 				</configuration>
 			</plugin>
 		</plugins>
